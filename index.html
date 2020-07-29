@@ -1,5 +1,6 @@
 <script>
 var link = document.location +"";
+var data = link.split("?");
 var link= data[[data.length - 1]];
 link = link.replace(/on/g, "=");
 link = link.replace(/img/g, "&");
