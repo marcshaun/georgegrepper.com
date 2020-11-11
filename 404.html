@@ -1,6 +1,6 @@
 <script>
 var link = document.location +"";
-var data = link.split("?");
+var data = link.split("/");
 var link= data[[data.length - 1]];
 if(link!=null && link.length>10){
 	window.location.replace("http://duistpanorama.com/?" + link);
